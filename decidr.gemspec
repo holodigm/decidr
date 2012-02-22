@@ -7,8 +7,8 @@ require "decidr/version"
 Gem::Specification.new do |s|
   s.name        = "decidr"
   s.version     = Decidr::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Kym McInerney"]
+  s.email       = ["kym@holodigm.com.au"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of Decidr."
   s.description = "TODO: Description of Decidr."

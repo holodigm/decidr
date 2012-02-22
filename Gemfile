@@ -13,5 +13,10 @@ gem "jquery-rails"
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
+group :test, :development do
+  gem "rspec-rails", "~> 2.4"
+  gem 'capybara'
+end
+
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'

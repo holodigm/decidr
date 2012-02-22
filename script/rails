@@ -3,6 +3,8 @@
 
 ENGINE_ROOT = File.expand_path('../..', __FILE__)
 ENGINE_PATH = File.expand_path('../../lib/decidr/engine', __FILE__)
+load File.expand_path('../../spec/dummy/script/rails', __FILE__)
+
 
 require 'rails/all'
 require 'rails/engine/commands'
